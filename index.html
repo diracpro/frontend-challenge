@@ -9,18 +9,23 @@
             href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
     </head>
 
-    <body>
-        <header class="p-8 bg-gray-500">
+    <body class="border-white">
+        <header class="pt-6 pb-3">
             <img
-                class="block m-auto"
-                src="https://reworth-public-assets.s3-us-west-2.amazonaws.com/img/reworth-logo-white.png"
+                class="block mx-8"
+                src="https://static.wixstatic.com/media/475185_0c498a2fe6454b43a81b98719406dafe~mv2.png/v1/fill/w_384,h_100,al_c,q_85,usm_0.66_1.00_0.01/LOGO-REWORTH-BLACK_edited.webp"
                 alt="ReWorth rewards"
+                style="width: 192px; height: 50px; object-fit: cover;"
             />
         </header>
         <!-- This is the root element for React -->
-        <div class="text-blue-600" id="root"></div>
+        <div id="root" class="px-8 pb-3"></div>
         <script src="./src/index.js"></script>
     </body>
 </html>
